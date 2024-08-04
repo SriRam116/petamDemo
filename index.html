@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petam with BS</title>
+    <link rel="stylesheet" href="./Bootstrap/Bootstrap5.2.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar sticky-nav navbar-expand-sm">
+      <a href="#" class="navbar-brand">
+        <img src="./Logo.png" alt="Logo" />
+      </a>
+      <div class="container justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-4">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item dropdown" id="submenu1" aria-expanded="false">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Advaita Guru Paramparā</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="submenu1">
+              <li><a href="#" class="dropdown-item my-1">Our Guru</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-4">
+            <a href="#" class="nav-link">Vedic Patashala</a>
+          </li>
+
+          <li
+            class="nav-item dropdown mx-4"
+            id="submenu2"
+            aria-expanded="false">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown">
+              E-Learning
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="submenu2">
+              <li>
+                <a href="#" class="dropdown-item my-1">Ramayanaparayanam</a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item my-1"
+                  >Bhagavat Gita Parayanam</a
+                >
+              </li>
+              <li>
+                <a href="#" class="dropdown-item my-1"
+                  >Maha Bharatha Parayanam</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li
+            class="nav-item dropdown mx-4"
+            id="submenu3"
+            aria-expanded="false">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown">
+              Poojas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="submenu3">
+              <li><a href="#" class="dropdown-item my-1">Homas</a></li>
+              <li><a href="#" class="dropdown-item my-1">Yagas</a></li>
+              <li><a href="#" class="dropdown-item my-1">Bhramosthavalu</a></li>
+              <li><a href="#" class="dropdown-item my-1">Varosthavalu</a></li>
+              <li><a href="#" class="dropdown-item my-1">Kalyanalu</a></li>
+              <li><a href="#" class="dropdown-item my-1">Abhishekalu</a></li>
+            </ul>
+          </li>
+
+          <li
+            class="nav-item dropdown mx-4"
+            id="submenu4"
+            aria-expanded="false">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Sprituality</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="submenu4">
+              <li><a href="#" class="dropdown-item my-1">Yagnopavetham</a></li>
+              <li><a href="#" class="dropdown-item my-1">Annaprasana</a></li>
+              <li>
+                <a href="#" class="dropdown-item my-1"
+                  >Hanuman Chalisa Patanam</a
+                >
+              </li>
+              <li>
+                <a href="#" class="dropdown-item my-1">Vishnu Sahasra Namalu</a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item my-1">Vedarsheervachanalu</a>
+              </li>
+              <li><a href="#" class="dropdown-item my-1">Marriages</a></li>
+              <li>
+                <a href="#" class="dropdown-item my-1">Birthday Wishes</a>
+              </li>
+            </ul>
+          </li>
+
+          <li
+            class="nav-item dropdown mx-4"
+            id="submenu5"
+            aria-expanded="false">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Services</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="submenu5">
+              <li>
+                <a href="#" class="dropdown-item my-1">Temple Prathistas</a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item my-1"
+                  >Old Temple Renovations</a
+                >
+              </li>
+              <li>
+                <a href="#" class="dropdown-item my-1">Blood Donations</a>
+              </li>
+              <li><a href="#" class="dropdown-item my-1">Oldage Homes</a></li>
+              <li><a href="#" class="dropdown-item my-1">Orphanages</a></li>
+              <li><a href="#" class="dropdown-item my-1">Medical Camps</a></li>
+              <li><a href="#" class="dropdown-item my-1">Gosamrakshana</a></li>
+            </ul>
+          </li>
+
+          <li
+            class="nav-item dropdown mx-4"
+            id="submenu6"
+            aria-expanded="false">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Donations</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="submenu6">
+              <li>
+                <a href="#" class="dropdown-item my-1"
+                  >Temple Renovation Donations</a
+                >
+              </li>
+              <li>
+                <a href="#" class="dropdown-item my-1"
+                  >Vedic Patashala Donations</a
+                >
+              </li>
+              <li>
+                <a href="#" class="dropdown-item my-1">New Temple Donations</a>
+              </li>
+              <li><a href="#" class="dropdown-item my-1">Gosamrakshana</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="whole-body">
+      <div class="container-fluid slider">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./image1.jpg"
+                alt="Lord Venkateswara Swamy"
+                class="d-block w-100 slides" />
+              <div class="carousel-caption">
+                <h3>Lord Venkateswara Swamy</h3>
+                <p>We are blessed to see this mesmerizing look</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./image2.jpg"
+                alt="Goddess Padhmavathi"
+                class="d-block w-100 slides" />
+              <div class="carousel-caption">
+                <h3>Goddess Padhmavathi</h3>
+                <p>We are blessed to see this mesmerizing look</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./image3.jpg"
+                alt="Kalyanam"
+                class="d-block w-100 slides" />
+              <div class="carousel-caption">
+                <h3>Kalyanam</h3>
+                <p>We are blessed to see this mesmerizing look</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <div class="container-fluid card event">
+          <img src="./gurukul.png" alt="Gurukul" class="card-img event-img" />
+          <div class="card-img-overlay">
+            <h5 class="card-title controls">Gurukul</h5>
+            <p class="card-caption">
+              Guru Brahma Guru Vishnu Guru Devo Maheshwara | Guru Sakshat Param
+              Brahma Tasmai Shri Gurave Namaha ||
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="describe">
+        <div class="image-class"><img src="./image4.jpg" alt="Our Guru" /></div>
+        <div class="description">
+          <h3>Our Guru</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem,
+            dolorem nisi saepe aspernatur atque earum a dignissimos ex ratione,
+            nostrum assumenda beatae magnam voluptas at inventore dolores
+            similique illum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            quasi eligendi perspiciatis porro possimus recusandae. Ducimus iste
+            harum minima doloribus doloremque minus laudantium magni quaerat!
+            Optio perferendis odit ad assumenda?
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="describe">
+        <div class="description">
+          <h3>Gurukulam</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem,
+            dolorem nisi saepe aspernatur atque earum a dignissimos ex ratione,
+            nostrum assumenda beatae magnam voluptas at inventore dolores
+            similique illum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            quasi eligendi perspiciatis porro possimus recusandae. Ducimus iste
+            harum minima doloribus doloremque minus laudantium magni quaerat!
+            Optio perferendis odit ad assumenda?
+          </p>
+        </div>
+        <div class="image-class gurukul">
+          <img src="./gurukul.png" alt="Gurukulam" />
+        </div>
+      </div>
+      <hr />
+      <div class="books">
+        <div class="books-title">
+          <h3>Ethihasa Bodhana</h3>
+        </div>
+        <div class="card">
+          <img src="./ramayana.jpg" alt="Ramayanam" class="card-img" />
+          <div class="card-img-overlay" id="ramayana">
+            <h5 class="card-title controls">Ramayana Parayanam</h5>
+            <p class="card-caption" id="ramayana">
+              Rāmāya Rāmabhadrāya Rāmacaṃdrāya Vedhase | Raghunāthāya Nāthāya
+              Sītāyāḥ Pataye Namaḥ ||
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./mahabharatham.jpg"
+            alt="Mahabharatham"
+            class="card-img mahabharatham" />
+          <div class="card-img-overlay" id="mahabharatham">
+            <h5 class="card-title controls">Mahabharatha Patanam</h5>
+            <p class="card-caption">
+              Yada yada hi dharmasya glanirbhavati bharata |
+              Abhythanamadharmasya tadatmanam srijamyaham ||
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./bhagavat-gita.jpg" alt="Bhagavat Gita" class="card-img" />
+          <div class="card-img-overlay" id="bhagavat-gita">
+            <h5 class="card-title controls">Bhagavat Gita Patanam</h5>
+            <p class="card-caption">
+              Paritranaya sadhunang vinashay cha dushkritam |
+              Dharmasangsthapanarthaya sambhabami yuge yuge ||
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="describe">
+        <div class="image-class">
+          <img src="./marriage.jpg" alt="marriage" />
+        </div>
+        <div class="description">
+          <h3>Samuhika Vivahalu</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem,
+            dolorem nisi saepe aspernatur atque earum a dignissimos ex ratione,
+            nostrum assumenda beatae magnam voluptas at inventore dolores
+            similique illum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            quasi eligendi perspiciatis porro possimus recusandae. Ducimus iste
+            harum minima doloribus doloremque minus laudantium magni quaerat!
+            Optio perferendis odit ad assumenda?
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="describe">
+        <div class="description">
+          <h3>Temple Renovations & Construction</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem,
+            dolorem nisi saepe aspernatur atque earum a dignissimos ex ratione,
+            nostrum assumenda beatae magnam voluptas at inventore dolores
+            similique illum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            quasi eligendi perspiciatis porro possimus recusandae. Ducimus iste
+            harum minima doloribus doloremque minus laudantium magni quaerat!
+            Optio perferendis odit ad assumenda?
+          </p>
+        </div>
+        <div class="image-class">
+          <img src="./construction.jpg" alt="renovation" />
+        </div>
+      </div>
+      <hr />
+      <div class="footer">
+        <div class="contact">
+          <h3>CONTACT US</h3>
+          <pre>
+        Door No.: 9-99-999, Lane No.: 9,
+        Street : AT Agraharam,
+        District : Amaravathi,
+        State : Andhra Pradesh,
+        Pin Code : 522009,
+        Country : India (Bharat)
+        Emails : sampradhayapitam@sprituality.in
+      </pre
+          >
+        </div>
+        <div class="services">
+          <h3>OUR SERVICES</h3>
+          <ul>
+            <li><a href="#">Gurukulam</a></li>
+            <li><a href="#">E-Learning</a></li>
+            <li><a href="#">Poojas</a></li>
+            <li><a href="#">Sprituality</a></li>
+            <li><a href="#">Renovations</a></li>
+            <li><a href="#">Donations</a></li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-content">
+          Copyright&copy; <span id="year"></span> . Wide Support⚡All rights
+          reserved.
+        </div>
+      </footer>
+    </div>
+
+    <script src="./Bootstrap/javascript.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
